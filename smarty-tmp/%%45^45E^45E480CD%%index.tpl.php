@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.10, created on 2015-05-01 11:24:25
+<?php /* Smarty version 2.6.10, created on 2015-05-01 17:57:50
          compiled from index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'bytesToHRF', 'index.tpl', 79, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'bytesToHRF', 'index.tpl', 81, false),)), $this); ?>
 <nobr>
 
 [
@@ -21,9 +21,10 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'bytesToHRF'
 ] 
           
 
+<table class="table table-bordered"><tr><th>Daily Summary</th></tr></table>
 
-	<table class="table table-bordered"> <caption><?php echo $this->_tpl_vars['pageVars']['topGrouping']; ?>
- Summary</caption>
+
+	<table class="table table-bordered"> 
 
 	<thead>
 
