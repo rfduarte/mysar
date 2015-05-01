@@ -1,5 +1,4 @@
 <nobr>
-
 [
 <a href="{$pageVars.uri}">Refresh this page</a>
 ]</nobr>
@@ -9,10 +8,13 @@
           Set this view as the default
         </a>
 ] 
-          
+
+<p><p>          
+
+<table class="table table-bordered"><tr><th>Daily Summary</th></tr></table>
 
 
-	<table class="table table-bordered"> <caption>{$pageVars.topGrouping} Summary</caption>
+	<table class="table table-bordered"> 
 
 	<thead>
 
