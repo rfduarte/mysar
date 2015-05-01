@@ -9,7 +9,6 @@
         </a>
 ] 
 
-<p><p>          
 
 <table class="table table-bordered"><tr><th>Daily Summary</th></tr></table>
 
