@@ -1,5 +1,5 @@
     
-	<table class="table table-bordered"><tr><th style="font-size: 20px";>Administration</th></tr></table>
+	<table class="table table-bordered"><tr><th>Administration</th></tr></table>
       <p>
       <table class="table table-bordered">
         <form method="POST">

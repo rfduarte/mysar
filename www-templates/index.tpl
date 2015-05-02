@@ -1,6 +1,8 @@
 <nobr>
 [
+
 <a href="{$pageVars.uri}">Refresh this page</a>
+
 ]</nobr>
 
 [
@@ -40,10 +42,10 @@
               {$pageVars.sitesLabelStart}SITES{$pageVars.sitesLabelEnd}
             <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.sitesDESC}"><img border="{$pageVars.sitesDESCImageBorder}" src="images/down-arrow.gif"></a>
        </th>
-       <th>TRAFFIC</th>
-          <th>
+       <th>
+          
             <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.bytesASC}"><img border="{$pageVars.bytesASCImageBorder}" src="images/up-arrow.gif"></a>
-              {$pageVars.bytesLabelStart}BYTES{$pageVars.bytesLabelEnd}
+              {$pageVars.bytesLabelStart}TRAFFIC{$pageVars.bytesLabelEnd}
             <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.bytesDESC}"><img border="{$pageVars.bytesDESCImageBorder}" src="images/down-arrow.gif"></a>
             
             <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.B}">{$pageVars.BLabelStart}B{$pageVars.BLabelEnd}</a>
