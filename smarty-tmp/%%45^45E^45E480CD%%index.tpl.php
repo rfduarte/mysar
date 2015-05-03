@@ -1,12 +1,13 @@
-<?php /* Smarty version 2.6.10, created on 2015-05-01 17:57:50
+<?php /* Smarty version 2.6.10, created on 2015-05-02 18:09:37
          compiled from index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'bytesToHRF', 'index.tpl', 81, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'bytesToHRF', 'index.tpl', 82, false),)), $this); ?>
 <nobr>
-
 [
+
 <a href="<?php echo $this->_tpl_vars['pageVars']['uri']; ?>
 ">Refresh this page</a>
+
 ]</nobr>
 
 [
@@ -19,7 +20,7 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'bytesToHRF'
           Set this view as the default
         </a>
 ] 
-          
+
 
 <table class="table table-bordered"><tr><th>Daily Summary</th></tr></table>
 
@@ -83,14 +84,14 @@ SITES<?php echo $this->_tpl_vars['pageVars']['sitesLabelEnd']; ?>
 "><img border="<?php echo $this->_tpl_vars['pageVars']['sitesDESCImageBorder']; ?>
 " src="images/down-arrow.gif"></a>
        </th>
-       <th>TRAFFIC</th>
-          <th>
+       <th>
+          
             <a href="<?php echo $_SERVER['PHP_SELF']; ?>
 ?<?php echo $this->_tpl_vars['pageVars']['url']['bytesASC']; ?>
 "><img border="<?php echo $this->_tpl_vars['pageVars']['bytesASCImageBorder']; ?>
 " src="images/up-arrow.gif"></a>
               <?php echo $this->_tpl_vars['pageVars']['bytesLabelStart']; ?>
-BYTES<?php echo $this->_tpl_vars['pageVars']['bytesLabelEnd']; ?>
+TRAFFIC<?php echo $this->_tpl_vars['pageVars']['bytesLabelEnd']; ?>
 
             <a href="<?php echo $_SERVER['PHP_SELF']; ?>
 ?<?php echo $this->_tpl_vars['pageVars']['url']['bytesDESC']; ?>
@@ -133,7 +134,7 @@ CACHE PERCENT<?php echo $this->_tpl_vars['pageVars']['cachePercentLabelEnd']; ?>
 ?<?php echo $this->_tpl_vars['pageVars']['url']['cachePercentDESC']; ?>
 "><img border="<?php echo $this->_tpl_vars['pageVars']['cachePercentDESCImageBorder']; ?>
 " src="images/down-arrow.gif"></a>
-          </th></tr></thead>
+          </th></thead>
         <?php $_from = $this->_tpl_vars['pageVars']['availableDates']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
     foreach ($_from as $this->_tpl_vars['date']):
 ?>
@@ -171,6 +172,6 @@ CACHE PERCENT<?php echo $this->_tpl_vars['pageVars']['cachePercentLabelEnd']; ?>
 </td>
           <td><?php echo $this->_tpl_vars['date']['cachePercent']; ?>
 %</td>
-        
+      </tr>  
       <?php endforeach; endif; unset($_from); ?>
       </table>

@@ -60,7 +60,7 @@
             <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.cachePercentASC}"><img border="{$pageVars.cachePercentASCImageBorder}" src="images/up-arrow.gif"></a>
               {$pageVars.cachePercentLabelStart}CACHE PERCENT{$pageVars.cachePercentLabelEnd}
             <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.cachePercentDESC}"><img border="{$pageVars.cachePercentDESCImageBorder}" src="images/down-arrow.gif"></a>
-          </th></tr></thead>
+          </th></thead>
         {foreach from=$pageVars.availableDates item=date}
           <td>
           {if $date.minDate == $date.maxDate}
@@ -81,6 +81,6 @@
           </td>
           <td>{$date.bytes|bytesToHRF:$pageVars.ByteUnit}</td>
           <td>{$date.cachePercent}%</td>
-        
+      </tr>  
       {/foreach}
       </table>
