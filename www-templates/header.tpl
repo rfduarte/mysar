@@ -14,6 +14,15 @@
     //--></SCRIPT>
    {/literal}
   </head>
-<body><center><header class="navbar navbar-static-top navbar-default" id="top" role="banner"><a class="navbar-brand">MySAR</a><!--<h1>{$pageVars.programName} {$pageVars.programVersion}</h1>--></header>
-    <p>[ <a href=".">Home</a> | <a href="{$smarty.server.PHP_SELF}?a=administration">Administration</a> ]</p>
+<body><center><header class="navbar navbar-static-top navbar-default" id="top" role="banner"><a class="navbar-brand">MySAR</a> <nav class="collapse navbar-collapse bs-navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href=".">HOME</a>
+        </li>
+        <li>
+          <a href="{$smarty.server.PHP_SELF}?a=administration">Administration</a>
+        </li>
+      </ul>
+    </nav><!--<h1>{$pageVars.programName} {$pageVars.programVersion}</h1>--></header>
+    <!-- <p>[ <a href=".">Home</a> | <a href="{$smarty.server.PHP_SELF}?a=administration">Administration</a> ]</p>-->
 <div class="container" role="main">
