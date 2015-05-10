@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.10, created on 2015-05-04 01:58:38
+<?php /* Smarty version 2.6.10, created on 2015-05-10 00:17:01
          compiled from footer.tpl */ ?>
       <p>
-      <table>
+      <table class="table table-striped">
        <tr><td>Current active users: </td><td><?php echo $this->_tpl_vars['pageVars']['activeUsers']; ?>
 </td>
        <tr><td>Current date and time is: </td><td><?php echo $this->_tpl_vars['pageVars']['currentDateTime']; ?>

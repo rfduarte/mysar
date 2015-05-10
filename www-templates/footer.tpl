@@ -1,5 +1,5 @@
       <p>
-      <table>
+      <table class="table table-striped">
        <tr><td>Current active users: </td><td>{$pageVars.activeUsers}</td>
        <tr><td>Current date and time is: </td><td>{$pageVars.currentDateTime}</td>
        <tr><td>Last processed record: </td><td>{$pageVars.lastTimestampFormatted}</td>

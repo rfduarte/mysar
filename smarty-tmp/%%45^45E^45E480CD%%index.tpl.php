@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.10, created on 2015-05-04 01:58:38
+<?php /* Smarty version 2.6.10, created on 2015-05-05 23:58:32
          compiled from index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'bytesToHRF', 'index.tpl', 82, false),)), $this); ?>
@@ -34,69 +34,69 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'bytesToHRF'
 	<th>
             <a href="<?php echo $_SERVER['PHP_SELF']; ?>
 ?<?php echo $this->_tpl_vars['pageVars']['url']['dateASC']; ?>
-"><img border="<?php echo $this->_tpl_vars['pageVars']['dateASCImageBorder']; ?>
-" src="images/up-arrow.gif"></a>
+"><span class="glyphicon glyphicon-chevron-up" border="<?php echo $this->_tpl_vars['pageVars']['dateASCImageBorder']; ?>
+"></a>
               <?php echo $this->_tpl_vars['pageVars']['dateLabelStart']; ?>
 DATE<?php echo $this->_tpl_vars['pageVars']['dateLabelEnd']; ?>
 
             <a href="<?php echo $_SERVER['PHP_SELF']; ?>
 ?<?php echo $this->_tpl_vars['pageVars']['url']['dateDESC']; ?>
-"><img border="<?php echo $this->_tpl_vars['pageVars']['dateDESCImageBorder']; ?>
-" src="images/down-arrow.gif"></a>
+"><span class="glyphicon glyphicon-chevron-down" border="<?php echo $this->_tpl_vars['pageVars']['dateDESCImageBorder']; ?>
+"></a>
        </th>
           <th>
             <a href="<?php echo $_SERVER['PHP_SELF']; ?>
 ?<?php echo $this->_tpl_vars['pageVars']['url']['usersASC']; ?>
-"><img border="<?php echo $this->_tpl_vars['pageVars']['usersASCImageBorder']; ?>
-" src="images/up-arrow.gif"></a>
+"><span class="glyphicon glyphicon-chevron-up" border="<?php echo $this->_tpl_vars['pageVars']['usersASCImageBorder']; ?>
+"></a>
               <?php echo $this->_tpl_vars['pageVars']['usersLabelStart']; ?>
 USERS<?php echo $this->_tpl_vars['pageVars']['usersLabelEnd']; ?>
 
             <a href="<?php echo $_SERVER['PHP_SELF']; ?>
 ?<?php echo $this->_tpl_vars['pageVars']['url']['usersDESC']; ?>
-"><img border="<?php echo $this->_tpl_vars['pageVars']['usersDESCImageBorder']; ?>
-" src="images/down-arrow.gif"></a>
+"><span class="glyphicon glyphicon-chevron-down" border="<?php echo $this->_tpl_vars['pageVars']['usersDESCImageBorder']; ?>
+"></a>
         </th>
           
 	<th>
             <a href="<?php echo $_SERVER['PHP_SELF']; ?>
 ?<?php echo $this->_tpl_vars['pageVars']['url']['hostsASC']; ?>
-"><img border="<?php echo $this->_tpl_vars['pageVars']['hostsASCImageBorder']; ?>
-" src="images/up-arrow.gif"></a>
+"><span class="glyphicon glyphicon-chevron-up" border="<?php echo $this->_tpl_vars['pageVars']['hostsASCImageBorder']; ?>
+"></a>
               <?php echo $this->_tpl_vars['pageVars']['hostsLabelStart']; ?>
 HOSTS<?php echo $this->_tpl_vars['pageVars']['hostsLabelEnd']; ?>
 
             <a href="<?php echo $_SERVER['PHP_SELF']; ?>
 ?<?php echo $this->_tpl_vars['pageVars']['url']['hostsDESC']; ?>
-"><img border="<?php echo $this->_tpl_vars['pageVars']['hostsDESCImageBorder']; ?>
-" src="images/down-arrow.gif"></a>
+"><span class="glyphicon glyphicon-chevron-down" border="<?php echo $this->_tpl_vars['pageVars']['hostsDESCImageBorder']; ?>
+"></a>
        </th>
           <th>
             <a href="<?php echo $_SERVER['PHP_SELF']; ?>
 ?<?php echo $this->_tpl_vars['pageVars']['url']['sitesASC']; ?>
-"><img border="<?php echo $this->_tpl_vars['pageVars']['sitesASCImageBorder']; ?>
-" src="images/up-arrow.gif"></a>
+"><span class="glyphicon glyphicon-chevron-up" border="<?php echo $this->_tpl_vars['pageVars']['sitesASCImageBorder']; ?>
+"></a>
               <?php echo $this->_tpl_vars['pageVars']['sitesLabelStart']; ?>
 SITES<?php echo $this->_tpl_vars['pageVars']['sitesLabelEnd']; ?>
 
             <a href="<?php echo $_SERVER['PHP_SELF']; ?>
 ?<?php echo $this->_tpl_vars['pageVars']['url']['sitesDESC']; ?>
-"><img border="<?php echo $this->_tpl_vars['pageVars']['sitesDESCImageBorder']; ?>
-" src="images/down-arrow.gif"></a>
+"><span class="glyphicon glyphicon-chevron-down" border="<?php echo $this->_tpl_vars['pageVars']['sitesDESCImageBorder']; ?>
+"></a>
        </th>
        <th>
           
             <a href="<?php echo $_SERVER['PHP_SELF']; ?>
 ?<?php echo $this->_tpl_vars['pageVars']['url']['bytesASC']; ?>
-"><img border="<?php echo $this->_tpl_vars['pageVars']['bytesASCImageBorder']; ?>
-" src="images/up-arrow.gif"></a>
+"><span class="glyphicon glyphicon-chevron-up" border="<?php echo $this->_tpl_vars['pageVars']['bytesASCImageBorder']; ?>
+"></a>
               <?php echo $this->_tpl_vars['pageVars']['bytesLabelStart']; ?>
 TRAFFIC<?php echo $this->_tpl_vars['pageVars']['bytesLabelEnd']; ?>
 
             <a href="<?php echo $_SERVER['PHP_SELF']; ?>
 ?<?php echo $this->_tpl_vars['pageVars']['url']['bytesDESC']; ?>
-"><img border="<?php echo $this->_tpl_vars['pageVars']['bytesDESCImageBorder']; ?>
-" src="images/down-arrow.gif"></a>
+"><span class="glyphicon glyphicon-chevron-down" border="<?php echo $this->_tpl_vars['pageVars']['bytesDESCImageBorder']; ?>
+"></a>
             
             <a href="<?php echo $_SERVER['PHP_SELF']; ?>
 ?<?php echo $this->_tpl_vars['pageVars']['url']['B']; ?>
@@ -125,15 +125,15 @@ G<?php echo $this->_tpl_vars['pageVars']['GLabelEnd']; ?>
           <th>
             <a href="<?php echo $_SERVER['PHP_SELF']; ?>
 ?<?php echo $this->_tpl_vars['pageVars']['url']['cachePercentASC']; ?>
-"><img border="<?php echo $this->_tpl_vars['pageVars']['cachePercentASCImageBorder']; ?>
-" src="images/up-arrow.gif"></a>
+"><span class="glyphicon glyphicon-chevron-up" border="<?php echo $this->_tpl_vars['pageVars']['cachePercentASCImageBorder']; ?>
+"></a>
               <?php echo $this->_tpl_vars['pageVars']['cachePercentLabelStart']; ?>
 CACHE PERCENT<?php echo $this->_tpl_vars['pageVars']['cachePercentLabelEnd']; ?>
 
             <a href="<?php echo $_SERVER['PHP_SELF']; ?>
 ?<?php echo $this->_tpl_vars['pageVars']['url']['cachePercentDESC']; ?>
-"><img border="<?php echo $this->_tpl_vars['pageVars']['cachePercentDESCImageBorder']; ?>
-" src="images/down-arrow.gif"></a>
+"><span class="glyphicon glyphicon-chevron-down" border="<?php echo $this->_tpl_vars['pageVars']['cachePercentDESCImageBorder']; ?>
+"></a>
           </th></thead>
         <?php $_from = $this->_tpl_vars['pageVars']['availableDates']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
     foreach ($_from as $this->_tpl_vars['date']):

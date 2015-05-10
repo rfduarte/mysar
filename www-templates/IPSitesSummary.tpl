@@ -54,14 +54,14 @@
     <tr>
       <th></th>
       <th>
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.siteASC}"><img border="{$pageVars.siteASCImageBorder}" src="images/up-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.siteASC}"><span class="glyphicon glyphicon-chevron-up" border="{$pageVars.siteASCImageBorder}"></a>
           {$pageVars.siteLabelStart}SITE{$pageVars.siteLabelEnd}
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.siteDESC}"><img border="{$pageVars.siteDESCImageBorder}" src="images/down-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.siteDESC}"><span class="glyphicon glyphicon-chevron-down" border="{$pageVars.siteDESCImageBorder}"></a>
       </th>
       <th width="110">
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.bytesASC}"><img border="{$pageVars.bytesASCImageBorder}" src="images/up-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.bytesASC}"><span class="glyphicon glyphicon-chevron-up" border="{$pageVars.bytesASCImageBorder}"></a>
           {$pageVars.bytesLabelStart}BYTES{$pageVars.bytesLabelEnd}
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.bytesDESC}"><img border="{$pageVars.bytesDESCImageBorder}" src="images/down-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.bytesDESC}"><span class="glyphicon glyphicon-chevron-down" border="{$pageVars.bytesDESCImageBorder}"></a>
         <br>
         <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.B}">{$pageVars.BLabelStart}B{$pageVars.BLabelEnd}</a>
         |
@@ -72,9 +72,9 @@
         <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.G}">{$pageVars.GLabelStart}G{$pageVars.GLabelEnd}</a>
       </th>
       <th>
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.cachePercentASC}"><img border="{$pageVars.cachePercentASCImageBorder}" src="images/up-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.cachePercentASC}"><span class="glyphicon glyphicon-chevron-up" border="{$pageVars.cachePercentASCImageBorder}"></a>
           {$pageVars.cachePercentLabelStart}CACHE PERCENT{$pageVars.cachePercentLabelEnd}
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.cachePercentDESC}"><img border="{$pageVars.cachePercentDESCImageBorder}" src="images/down-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.cachePercentDESC}"><span class="glyphicon glyphicon-chevron-down" border="{$pageVars.cachePercentDESCImageBorder}"></a>
       </th>
     </tr>
   {assign var=recordCount value="0"}
