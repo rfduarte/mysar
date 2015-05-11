@@ -24,14 +24,14 @@
   <table class="table table-bordered">
     <tr>
       <th>
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.timeASC}"><img border="{$pageVars.timeASCImageBorder}" src="images/up-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.timeASC}"><span class="glyphicon glyphicon-chevron-up" border="{$pageVars.timeASCImageBorder}"></a>
           {$pageVars.timeLabelStart}TIME{$pageVars.timeLabelEnd}
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.timeDESC}"><img border="{$pageVars.timeDESCImageBorder}" src="images/down-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.timeDESC}"><span class="glyphicon glyphicon-chevron-down" border="{$pageVars.timeDESCImageBorder}"></a>
       </th>
       <th width="110">
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.bytesASC}"><img border="{$pageVars.bytesASCImageBorder}" src="images/up-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.bytesASC}"><span class="glyphicon glyphicon-chevron-up" border="{$pageVars.bytesASCImageBorder}"></a>
           {$pageVars.bytesLabelStart}BYTES{$pageVars.bytesLabelEnd}
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.bytesDESC}"><img border="{$pageVars.bytesDESCImageBorder}" src="images/down-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.bytesDESC}"><span class="glyphicon glyphicon-chevron-down" border="{$pageVars.bytesDESCImageBorder}"></a>
         <br>
         <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.B}">{$pageVars.BLabelStart}B{$pageVars.BLabelEnd}</a>
         |
@@ -42,14 +42,14 @@
         <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.G}">{$pageVars.GLabelStart}G{$pageVars.GLabelEnd}</a>
       </th>
       <th>
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.urlASC}"><img border="{$pageVars.urlASCImageBorder}" src="images/up-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.urlASC}"><span class="glyphicon glyphicon-chevron-up" border="{$pageVars.urlASCImageBorder}"></a>
           {$pageVars.urlLabelStart}URL{$pageVars.urlLabelEnd}
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.urlDESC}"><img border="{$pageVars.urlDESCImageBorder}" src="images/down-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.urlDESC}"><span class="glyphicon glyphicon-chevron-down" border="{$pageVars.urlDESCImageBorder}"></a>
       </th>
       <th>
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.statusASC}"><img border="{$pageVars.statusASCImageBorder}" src="images/up-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.statusASC}"><span class="glyphicon glyphicon-chevron-up" border="{$pageVars.statusASCImageBorder}"></a>
           {$pageVars.statusLabelStart}STATUS{$pageVars.statusLabelEnd}
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.statusDESC}"><img border="{$pageVars.statusDESCImageBorder}" src="images/down-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.statusDESC}"><span class="glyphicon glyphicon-chevron-down" border="{$pageVars.statusDESCImageBorder}"></a>
       </th>
     </tr>
   {foreach from=$pageVars.siteDetails item=record}
