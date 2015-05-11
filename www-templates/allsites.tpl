@@ -28,24 +28,24 @@
     <tr>
       <th></th>
       <th>
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.siteASC}"><img border="{$pageVars.siteASCImageBorder}" src="images/up-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.siteASC}"><span class="glyphicon glyphicon-chevron-up" border="{$pageVars.siteASCImageBorder}"></a>
           {$pageVars.siteLabelStart}SITE{$pageVars.siteLabelEnd}
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.siteDESC}"><img border="{$pageVars.siteDESCImageBorder}" src="images/down-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.siteDESC}"><span class="glyphicon glyphicon-chevron-down" border="{$pageVars.siteDESCImageBorder}"></a>
       </th>
       <th>
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.usersASC}"><img border="{$pageVars.usersASCImageBorder}" src="images/up-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.usersASC}"><span class="glyphicon glyphicon-chevron-up" border="{$pageVars.usersASCImageBorder}"></a>
           {$pageVars.usersLabelStart}USERS{$pageVars.usersLabelEnd}
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.usersDESC}"><img border="{$pageVars.usersDESCImageBorder}" src="images/down-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.usersDESC}"><span class="glyphicon glyphicon-chevron-down" border="{$pageVars.usersDESCImageBorder}"></a>
       </th>
       <th>
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.hostsASC}"><img border="{$pageVars.hostsASCImageBorder}" src="images/up-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.hostsASC}"><span class="glyphicon glyphicon-chevron-up" border="{$pageVars.hostsASCImageBorder}"></a>
           {$pageVars.hostsLabelStart}HOSTS{$pageVars.hostsLabelEnd}
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.hostsDESC}"><img border="{$pageVars.hostsDESCImageBorder}" src="images/down-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.hostsDESC}"><span class="glyphicon glyphicon-chevron-down" border="{$pageVars.hostsDESCImageBorder}"></a>
       </th>
       <th>
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.bytesASC}"><img border="{$pageVars.bytesASCImageBorder}" src="images/up-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.bytesASC}"><span class="glyphicon glyphicon-chevron-up" border="{$pageVars.bytesASCImageBorder}"></a>
           {$pageVars.bytesLabelStart}BYTES{$pageVars.bytesLabelEnd}
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.bytesDESC}"><img border="{$pageVars.bytesDESCImageBorder}" src="images/down-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.bytesDESC}"><span class="glyphicon glyphicon-chevron-down" border="{$pageVars.bytesDESCImageBorder}"></a>
         <br>
         <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.B}">{$pageVars.BLabelStart}B{$pageVars.BLabelEnd}</a>
         |
@@ -57,9 +57,9 @@
 
       </th>
       <th>
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.cachePercentASC}"><img border="{$pageVars.cachePercentASCImageBorder}" src="images/up-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.cachePercentASC}"><span class="glyphicon glyphicon-chevron-up" border="{$pageVars.cachePercentASCImageBorder}"></a>
           {$pageVars.cachePercentLabelStart}CACHE PERCENT{$pageVars.cachePercentLabelEnd}
-        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.cachePercentDESC}"><img border="{$pageVars.cachePercentDESCImageBorder}" src="images/down-arrow.gif"></a>
+        <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.cachePercentDESC}"><span class="glyphicon glyphicon-chevron-down" border="{$pageVars.cachePercentDESCImageBorder}"></a>
       </th>
     </tr>
   {foreach from=$pageVars.allSites item=record}
