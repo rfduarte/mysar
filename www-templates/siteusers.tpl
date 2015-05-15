@@ -38,11 +38,11 @@
           {$pageVars.usernameLabelStart}USERNAME{$pageVars.usernameLabelEnd}
         <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.usernameDESC}"><span class="glyphicon glyphicon-chevron-down" border="{$pageVars.usernameDESCImageBorder}"></a>
       </th>
-      <th>
+      <!--<th>
         <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.sitesASC}"><span class="glyphicon glyphicon-chevron-up" border="{$pageVars.sitesASCImageBorder}"></a>
           {$pageVars.sitesLabelStart}SITES{$pageVars.sitesLabelEnd}
         <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.sitesDESC}"><span class="glyphicon glyphicon-chevron-down" border="{$pageVars.sitesDESCImageBorder}"></a>
-      </th>
+      </th>-->
       <th>
         <a href="{$smarty.server.PHP_SELF}?{$pageVars.url.bytesASC}"><span class="glyphicon glyphicon-chevron-up" border="{$pageVars.bytesASCImageBorder}"></a>
           {$pageVars.bytesLabelStart}BYTES{$pageVars.bytesLabelEnd}
@@ -76,19 +76,20 @@
       <td><a href='{$smarty.server.PHP_SELF}?a=details&date={$pageVars.date}&hostiplong={$record.hostiplong}&usersID={$record.usersID}&sitesID={$pageVars.sitesID}'>{$record.username}</td>
       <td>{$record.bytes|bytesToHRF:$pageVars.ByteUnit}</td>
       <td>{$record.cachePercent}%</td>
-    </tr>
+    
     {assign var=bytesTotal value=$bytesTotal+$record.bytes}
     {/foreach}
-    <tr><td></td></tr>
-    <tr><td></td></tr>
-    <tr>
+
+   <tr><td></td><tr>
+	
       <th>TOTALS</th>
-      <th style="text-align: right;" colspan="2">{$pageVars.distinctValues.ips}</th>
-      <th style="text-align: right;">{$pageVars.distinctValues.users}</th>
-      <th style="text-align: right;">{$bytesTotal|bytesToHRF:$pageVars.ByteUnit}</th>
-      <th></th>
+     
+	<!--<th>{$pageVars.distinctValues.ips}</th>-->
+        <th>{$pageVars.distinctValues.users}</th>
+      	<th>{$bytesTotal|bytesToHRF:$pageVars.ByteUnit}</th>
+      
     </tr>
-  </table>
+</table>
   <p>
   <table class="table table-bordered">
     <tr><th colspan="7">Latest site activity</th></td>
@@ -101,7 +102,7 @@
       <th>STATUS</th>
     </tr>
     {foreach from=$pageVars.latestSiteActivity item=record}
-    <tr onMouseOver="this.bgColor='#C5D3E7';" onMouseOut="this.bgColor='#DAE3F0';">
+    <tr>
       <td><a href='{$smarty.server.PHP_SELF}?a=IPSitesSummary&date={$pageVars.date}&hostiplong={$record.hostiplong}&usersID={$record.usersID}'>{$record.hostip}</a></td>
       <td><a href='{$smarty.server.PHP_SELF}?a=IPSitesSummary&date={$pageVars.date}&hostiplong={$record.hostiplong}&usersID={$record.usersID}'>{$record.username}</a></td>
       <td>{$record.time}</td>
