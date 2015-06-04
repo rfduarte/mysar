@@ -2,7 +2,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=iso8859-1">
     <title>{$pageVars.programName} {$pageVars.programVersion}</title>
-    <link rel="stylesheet" href="bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="fonts/bootstrap.css" type="text/css">
     {literal}
     <SCRIPT language="JavaScript"><!--
       function my_confirm(msg,go) {
