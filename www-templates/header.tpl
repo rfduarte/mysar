@@ -14,7 +14,7 @@
     //--></SCRIPT>
    {/literal}
   </head>
-<body><center><header class="navbar navbar-static-top navbar-default" id="top" role="banner"><a class="navbar-brand">MySAR</a> <nav class="collapse navbar-collapse bs-navbar-collapse">
+<body><center><header class="navbar navbar-static-top navbar-inverse" id="top" role="banner"><a class="navbar-brand">MySAR</a> <nav class="collapse navbar-collapse bs-navbar-collapse">
       <ul class="nav navbar-nav">
         <li>
           <a href=".">HOME</a>
